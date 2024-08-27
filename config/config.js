@@ -14,7 +14,7 @@ module.exports = {
     username: DB_USER || "postgres",
     password: DP_PASS || "postgres",
     database: DB_NAME || "todo_app_test",
-    host: "localhost",
+    host: DB_HOST || "db",
     dialect: "postgres",
     port: DB_PORT || 5432,
     logging: false,
