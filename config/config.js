@@ -13,7 +13,7 @@ module.exports = {
     "username": DB_USER || "postgres",
     "password": DB_PASS || "postgres",
     "database": DB_NAME || "todo_app_test",
-    "host": "db",
+    "host": "localhost",
     "dialect": "postgres",
     "logging": false
   },
